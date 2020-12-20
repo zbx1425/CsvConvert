@@ -1,0 +1,53 @@
+SequenceStarted,Conversion started.
+FileStarted,  Processing {0}...
+SequenceDone,All files have been processed.
+FileDone,  Done, saved to {0}.
+GeneralError,      Error: {0}
+GeneralWarning,      Warn: {0}
+GeneralInfo,      Info: {0}
+Reading,    Reading...
+OptimizingObject,    Optimizing object...
+OptimizingMaterial,    Merging materials...
+PreProcessing,    Pre-processing...
+PostProcessing,    Post-processing...
+Writing,    Exporting...
+Dimension,      Size: {0}
+TextureHint,      Texture: {0}
+ObjectNotReadable,    Error: Cannot read object
+
+SketchupHack,    Sketchup detected, axis will be reversed.
+
+MainForm,CSV Model Converter
+groupBoxCredit,Credit
+tbLog,Press Ctrl+D to clear log.
+
+groupBoxMisc,Misc
+labelRound,Digit Places
+labelRoundV,Vertex:
+labelRoundUV,UV:
+labelFace2Type,Double-sided Face
+labelTransparentColor,Transparent Color
+labelLocalCP,Local CodePage
+cbLocalCP,Tick if mojibake appears
+
+groupBoxTransform,Transform
+labelTransformSequence,M>S>R>T
+labelMirror,Mirror
+labelScale,Scale
+labelRotate,Rotate
+labelTranslate,Translate
+
+groupBoxOutputFormat,Output Format
+rbCsvModel,CSV Model
+cbOutputNormals,(With Normals)
+rbStaticHmmo,Static HMMO (WIP)
+
+groupBoxStart,Start Conversion
+btnSelectFile,Select Files
+labelDragDrop,Or drag-drop them into the box below
+
+btnTransparentSelected,Selected #{0:X2}{1:X2}{2:X2}
+btnTransparentNone,Not Assigned
+cbFace2None,No modification
+cbFace2Command,Face2 (Incorrect lighting)
+cbFace2Double,Copy all (Bad perf)

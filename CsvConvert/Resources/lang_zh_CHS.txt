@@ -1,0 +1,53 @@
+SequenceStarted,转换已开始。
+FileStarted,  正在处理 {0}…
+SequenceDone,所有文件都已转换完成。
+FileDone,  完成，已保存至 {0}。
+GeneralError,      错误: {0}
+GeneralWarning,      警告: {0}
+GeneralInfo,      消息: {0}
+Reading,    正在读入…
+OptimizingObject,    正在简化模型结构…
+OptimizingMaterial,    正在合并重复材质…
+PreProcessing,    正在预处理…
+PostProcessing,    正在后期处理…
+Writing,    正在导出…
+Dimension,      物件尺寸: {0}
+TextureHint,      贴图文件: {0}
+ObjectNotReadable,    错误: 无法读入物件
+
+SketchupHack,    检测到模型由Sketchup导出，反转坐标系轴向。
+
+MainForm,CSV模型转换工具
+groupBoxCredit,作者
+tbLog,按Ctrl+D清除日志。
+
+groupBoxMisc,杂项
+labelRound,小数位数
+labelRoundV,顶点:
+labelRoundUV,UV:
+labelFace2Type,单面改双面
+labelTransparentColor,透明抠色
+labelLocalCP,本机字符编码
+cbLocalCP,如出现乱码请勾选
+
+groupBoxTransform,变换
+labelTransformSequence,翻缩转移
+labelMirror,翻转
+labelScale,缩放
+labelRotate,旋转
+labelTranslate,平移
+
+groupBoxOutputFormat,输出格式
+rbCsvModel,CSV模型
+cbOutputNormals,(带法向量)
+rbStaticHmmo,静态HMMO (开发中)
+
+groupBoxStart,开始转换
+btnSelectFile,选择文件
+labelDragDrop,或拖拽文件到下方框中
+
+btnTransparentSelected,已选择 #{0:X2}{1:X2}{2:X2}
+btnTransparentNone,没有指定
+cbFace2None,不改变
+cbFace2Command,全使用Face2(光照不正确)
+cbFace2Double,全复制到反面(性能差)
